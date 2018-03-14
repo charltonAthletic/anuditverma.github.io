@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Migrating Visualforce Pages to Lightning
-tags: [API, Google Chart API, Visualforce]
+tags: [Lightning Experience, Salesforce Lightning Design System, Visualforce]
 image:  https://cdn-images-1.medium.com/max/720/1*Opr2VkjACltzilCv11wy_Q.png
 share-img:  https://cdn-images-1.medium.com/max/720/1*Opr2VkjACltzilCv11wy_Q.png
 ---
