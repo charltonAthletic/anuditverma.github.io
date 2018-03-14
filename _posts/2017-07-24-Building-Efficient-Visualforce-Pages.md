@@ -6,8 +6,6 @@ tags: [API, Google Chart API, Visualforce]
 image:  https://cdn-images-1.medium.com/max/720/1*0G2Bizt3Nija457FBhYdgQ.png
 share-img:  https://cdn-images-1.medium.com/max/720/1*0G2Bizt3Nija457FBhYdgQ.png
 ---
-
-
 # Building Efficient Visualforce Pages — A ‘Salesforce Summary’
 
 *SalesforceSummaries is a publication that delivers the ***key*** insights from
