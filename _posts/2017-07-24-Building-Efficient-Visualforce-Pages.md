@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Create a brilliant ‘world map’ Visualforce page without writing any code!
