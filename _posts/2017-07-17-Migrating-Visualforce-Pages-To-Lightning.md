@@ -7,7 +7,12 @@ share-img:  https://cdn-images-1.medium.com/max/720/1*Opr2VkjACltzilCv11wy_Q.png
 ---
 # Migrating Visualforce Pages to Lightning — A ‘Salesforce Summary’
 
-_SalesforceSummaries is a publication that delivers the  __**key**__  insights from Salesforce YouTube videos. We aim to be the _ [_getAbstract.com_](https://www.getabstract.com/en/)_ of Salesforce tutorial videos. These publications will save you time as you keep up to date with the latest technological changes within the Salesforce ecosystem._
+
+*SalesforceSummaries is a publication that delivers the **key** insights from
+Salesforce YouTube videos. We aim to be the
+*[getAbstract.com](https://www.getabstract.com/en/)* of Salesforce tutorial
+videos. These publications will save you time as you keep up to date with the
+latest technological changes within the Salesforce ecosystem.
 
 **Introduction:**
 
