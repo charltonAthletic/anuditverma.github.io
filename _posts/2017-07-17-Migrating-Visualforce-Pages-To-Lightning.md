@@ -44,7 +44,7 @@ Time: 54 minutes
 
 Key terms: Visualforce, Lightning Experience, Salesforce Lightning Design System
 
-Key points:
+**Key points:**
 
 1) Although Visualforce is still supported, Salesforce are focusing and will
 continue to focus primarily on Salesforce Lightning because this is new
