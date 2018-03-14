@@ -1,11 +1,12 @@
 
 ---
 layout: post
-title: Building Efficient Visualforce Pages
-tags: [API, Salesforce, Visualforce]
+title: Create a brilliant ‘world map’ Visualforce page without writing any code!
+tags: [API, Google Chart API, Visualforce]
 image:  https://cdn-images-1.medium.com/max/720/1*0G2Bizt3Nija457FBhYdgQ.png
 share-img:  https://cdn-images-1.medium.com/max/720/1*0G2Bizt3Nija457FBhYdgQ.png
 ---
+
 
 # Building Efficient Visualforce Pages — A ‘Salesforce Summary’
 
