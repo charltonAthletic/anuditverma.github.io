@@ -7,7 +7,7 @@ share-img:  https://cdn-images-1.medium.com/max/720/1*0G2Bizt3Nija457FBhYdgQ.png
 ---
 # Building Efficient Visualforce Pages — A ‘Salesforce Summary’
 
-*SalesforceSummaries is a publication that delivers the ***key*** insights from
+*SalesforceSummaries is a publication that delivers the ***key** insights from
 Salesforce YouTube videos. We aim to be the
 *[getAbstract.com](https://www.getabstract.com/en/)* of Salesforce tutorial
 videos. These publications will save you time as you keep up to date with the
@@ -47,7 +47,7 @@ Time: 45 minutes
 
 Key terms: Visualforce, View State, Force.com Query Optimiser
 
-Key points:
+**Key points:**
 
 1) To design memory efficient Visualforce pages, one needs to build database
 efficient Visualforce pages, design efficient controller logic and make
