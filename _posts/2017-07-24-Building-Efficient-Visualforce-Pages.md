@@ -62,137 +62,36 @@ tag which is less efficient.
 
 **Summary:**
 
-1.  @3: The 2 most common things which impede Visualforce page performance is high
-memory on the page and how the page accesses the database
-1.  @6: The view state is something that Visualforce automatically maintains as soon
-as you use an
-[<apex:form>](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_compref_form.htm)
-component on the page. The <apex:form> tag is used when requesting input from
-the user.
-1.  @6.20: The max view state of a Visualforce page is 135kb. If your page exceed
-this limit, the user will receive a ‘*maximum view state size limit (135KB)
-exceeded*’ error on the page.
-1.  @6.25: The view state is very helpful because the inputs are saved on the page.
-Let’s say there’s a validation rule on the sObject that is referenced in the
-controller and the user inputs data into the <apex:form> fields and selects the
-[commandButton](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_compref_commandButton.htm),
-the server would come back with any errors and post these back to the browser
-(client).
-1.  @6.30: The Visualforce page uses the view state to rebuild the page so that no
-input data is lost. This way, the user doesn’t lose any data that have been
-populated in the
-[<apex:inputFields>](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_compref_inputField.htm).
+1. @3: The 2 most common things which impede Visualforce page performance is high memory on the page and how the page accesses the database
+2. @6: The view state is something that Visualforce automatically maintains as soon as you use an [](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages\_compref\_form.htm) component on the page. The tag is used when requesting input from the user.
+3. @6.20: The max view state of a Visualforce page is 135kb. If your page exceed this limit, the user will receive a &#39;_maximum view state size limit (135KB) exceeded_&#39; error on the page.
+4. @6.25: The view state is very helpful because the inputs are saved on the page. Let&#39;s say there&#39;s a validation rule on the sObject that is referenced in the controller and the user inputs data into the fields and selects the [commandButton](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages\_compref\_commandButton.htm), the server would come back with any errors and post these back to the browser (client).
+5. @6.30: The Visualforce page uses the view state to rebuild the page so that no input data is lost. This way, the user doesn&#39;t lose any data that have been populated in the [](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages\_compref\_inputField.htm).
+6. @6.50: The Visualforce page view state is encrypted and travels back and forth between client and server. Therefore, the lower the view state, the better as it results in a faster response time. This is especially true for mobile customers.
+7. @7.15: To view the view state on a page, enable &#39; [Development Mode](https://help.salesforce.com/articleView?id=pages_dev_mode.htm&amp;type=0)&#39; on the user record and select the &#39;View State in Development Mode&#39;.
+8. @7.20: In the Development footer, you&#39;ll see a third tab that shows the view state inspector. The view state enables you to see which component on the page is contributing to the view state size.
 
-6. @6.50: The Visualforce page view state is encrypted and travels back and
-forth between client and server. Therefore, the lower the view state, the better
-as it results in a faster response time. This is especially true for mobile
-customers.
+9.@9.45: Minimize data, so as to ensure that your SOQL queries only have the fields that you absolutely need for the Visualforce page.
 
-7. @7.15: To view the view state on a page, enable ‘[Development
-Mode](https://help.salesforce.com/articleView?id=pages_dev_mode.htm&type=0)’ on
-the user record and select the ‘View State in Development Mode’.
-
-8. @7.20: In the Development footer, you’ll see a third tab that shows the view
-state inspector. The view state enables you to see which component on the page
-is contributing to the view state size.
-
-9.@9.45: Minimize data, so as to ensure that your SOQL queries only have the
-fields that you absolutely need for the Visualforce page.
-
-10. @10.30: Analyze your controllers and ensure that you’re only querying the
-fields that your page requires. In the demo, this reduced the view state from
-27kb to 4kb.
-
-11. @10.50: Use WHERE clauses to reduce the data set to reduce the view state
-further.
-
-12. @13.30: You can tell Visualforce to not maintain view state for data which
-should only be visible and not editable (so to all intents and purposes it is
-read-only data on the page). This can be achieved by using the [transient
-](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/apex_classes_keywords_transient.htm)key
-word in front of your collection or sObject variables.
-
-13. @14.30: Traditional polling, which typically leverages the [actionPoller
-Visualforce
-tag](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_compref_actionPoller.htm),
-will always require view state as it requires an <apex:form> tag. However, is
-there a more benefical approach which we can adopt which doesn’t maintain a view
-state at all?
-
-14. @15: One can use the Streaming API in your Visualforce pages, which will
-enable you to push a notification to the browser (client) whenever a change has
-happened in the database. This notification is stored in JavaScript in the page,
-and this will refresh the browser.
-
-15. @15.40: Minimise your data (force the field list in SOQL queries, use WHERE
-clauses), use the transient keyword for read-only variables and consider
-alternative page designs which don’t use <apex:forms>.
-
-16. @16.20: Visualforce pages are built for data-driven applications and so we
-want to ensure the database is not in a bottle neck. So it is critical to build
-database efficient Visualforce pages.
-
-17. @16.50: The key things to make database efficient Visualforce controllers is
-efficient SOQL and logic.
-
-18. @17.40: The [force.com query
-optimiser](https://help.salesforce.com/articleView?id=000181277&r=https://www.google.co.uk/&type=1)
-won’t use an available index on a field if you use non optimisable operators.
-Negative operators go after a much larger dataset and so indexes won’t be used.
-Refer to developer.force.com/architect where these concepts are published.
-
-19. @19.40: The easiest way to optimise a SOQL would be to ‘flip’ it from NOT
-Closed to Open — meaning if there’s an index on this field, then it will be used
-in the query.
-
-20. @19.50: There are three steps to build a selective WHERE query: a)
-Optimisable operator b) The set of values you’re searching for are selected in
-the record set c) Ensure you have an index in place.
-
-21. @20.00: You will to work with the support team to add a custom index. There
-are standard fields already in the Salesforce schema, but if you’re using a
-custom field, you will need to create one yourself.
-
-22. @21.30: There are selectivity thresholds to consider when querying large
-datasets.
-
+10. @10.30: Analyze your controllers and ensure that you&#39;re only querying the fields that your page requires. In the demo, this reduced the view state from 27kb to 4kb.
+11. @10.50: Use WHERE clauses to reduce the data set to reduce the view state further.
+12. @13.30: You can tell Visualforce to not maintain view state for data which should only be visible and not editable (so to all intents and purposes it is read-only data on the page). This can be achieved by using the  [transient ](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/apex_classes_keywords_transient.htm)key word in front of your collection or sObject variables.
+13. @14.30: Traditional polling, which typically leverages the  [actionPoller Visualforce tag](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_compref_actionPoller.htm), will always require view state as it requires an tag. However, is there a more benefical approach which we can adopt which doesn&#39;t maintain a view state at all?
+14. @15: One can use the Streaming API in your Visualforce pages, which will enable you to push a notification to the browser (client) whenever a change has happened in the database. This notification is stored in JavaScript in the page, and this will refresh the browser.
+15. @15.40: Minimise your data (force the field list in SOQL queries, use WHERE clauses), use the transient keyword for read-only variables and consider alternative page designs which don&#39;t use .
+16. @16.20: Visualforce pages are built for data-driven applications and so we want to ensure the database is not in a bottle neck. So it is critical to build database efficient Visualforce pages.
+17. @16.50: The key things to make database efficient Visualforce controllers is efficient SOQL and logic.
+18. @17.40: The  [com query optimiser](https://help.salesforce.com/articleView?id=000181277&amp;r=https://www.google.co.uk/&amp;type=1) won&#39;t use an available index on a field if you use non optimisable operators. Negative operators go after a much larger dataset and so indexes won&#39;t be used. Refer to developer.force.com/architect where these concepts are published.
+19. @19.40: The easiest way to optimise a SOQL would be to &#39;flip&#39; it from NOT Closed to Open — meaning if there&#39;s an index on this field, then it will be used in the query.
+20. @19.50: There are three steps to build a selective WHERE query: a) Optimisable operator b) The set of values you&#39;re searching for are selected in the record set c) Ensure you have an index in place.
+21. @20.00: You will to work with the support team to add a custom index. There are standard fields already in the Salesforce schema, but if you&#39;re using a custom field, you will need to create one yourself.
+22. @21.30: There are selectivity thresholds to consider when querying large datasets.
 23. @22.00: The sharing architecture is used by the query optimiser.
-
-24. @22.15: Public **with sharing **(‘sharing’ key word) can help to optimise
-the query further. For example, if you have a private sharing model, using the
-‘with sharing’ keyword in your controller would reduce the data set for the
-Visualforce page further. So, you can take advantage of the sharing architecture
-for objects which have a private OWD.
-
-25. @23.30: To recap, execute efficient SOQL queries by using optimisable
-operators, filtering on selective field values, leverage indexed fields and
-leverage the sharing architecture when possible.
-
-26. @23.40: Use [standard set
-controllers](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/apex_pages_standardsetcontroller.htm)
-in your logic when possible as these are optimised for large data sets, they
-play nicely with list views and they provide robust paging capabilities.
-
-27. @23.50: A standard set controller enables ‘query more’; which works best
-with pagination as it queries once and keeps the curser in a cache. And when the
-next page is requested, instead of requerying, the next set of records is taken
-by incrementing the curser in the cache.
-
-28. @25.00: In your logic, ensure that you place DML and SOQL outside of loops.
-Make sure you use bulk processing principals when you can when creating custom
-controllers.
-
-29. @27.00: Long polling is a much more modern version of traditional polling.
-Whenver an update is received on the database, a push is sent to the page (so
-this is very impactful and efficient).
-
-30. @28.00: By using long polling via the Streaming API, you can update a page
-in real-time without the need of the <apex:form> tag (providing that user input
-isn’t required). Therefore, this reduces the view state and offers a very
-efficient page. This
-[developer.salesforce](https://developer.salesforce.com/page/Alert!_Salesforce_Event_Notification_Designs_for_Force.com_Apps)
-article covers this extensively.
-
-31. @35.15: How can one scan a Salesforce environment and determine where a
-Visualforce’s page could be made more efficient? This can be achieved with the
-help of the [MavensMate IDE](http://mavensmate.com/).
+24. @22.15: Public \*\*with sharing \*\*(&#39;sharing&#39; key word) can help to optimise the query further. For example, if you have a private sharing model, using the &#39;with sharing&#39; keyword in your controller would reduce the data set for the Visualforce page further. So, you can take advantage of the sharing architecture for objects which have a private OWD.
+25. @23.30: To recap, execute efficient SOQL queries by using optimisable operators, filtering on selective field values, leverage indexed fields and leverage the sharing architecture when possible.
+26. @23.40: Use  [standard set controllers](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/apex_pages_standardsetcontroller.htm) in your logic when possible as these are optimised for large data sets, they play nicely with list views and they provide robust paging capabilities.
+27. @23.50: A standard set controller enables &#39;query more&#39;; which works best with pagination as it queries once and keeps the curser in a cache. And when the next page is requested, instead of requerying, the next set of records is taken by incrementing the curser in the cache.
+28. @25.00: In your logic, ensure that you place DML and SOQL outside of loops. Make sure you use bulk processing principals when you can when creating custom controllers.
+29. @27.00: Long polling is a much more modern version of traditional polling. Whenver an update is received on the database, a push is sent to the page (so this is very impactful and efficient).
+30. @28.00: By using long polling via the Streaming API, you can update a page in real-time without the need of the tag (providing that user input isn&#39;t required). Therefore, this reduces the view state and offers a very efficient page. This [developer.salesforce](https://developer.salesforce.com/page/Alert!\_Salesforce\_Event\_Notification\_Designs\_for\_Force.com\_Apps) article covers this extensively.
+31. @35.15: How can one scan a Salesforce environment and determine where a Visualforce&#39;s page could be made more efficient? This can be achieved with the help of the  [MavensMate IDE](http://mavensmate.com/).
