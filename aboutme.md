@@ -9,7 +9,7 @@ subtitle: "Learn More Salesforce."
 
 <p class="about-text">
 <!-- <span class="fa fa-briefcase about-icon"></span> -->
-  **PAGE COMING SOON.**
+  *PAGE COMING SOON.*
 </p>
 
 <!--
