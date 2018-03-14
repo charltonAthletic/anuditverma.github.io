@@ -1,17 +1,18 @@
 ---
 layout: page
-title: About Anudit Verma
-meta-title: About me
-subtitle: "For a start, my favourite quote is, <br> Do what you love, love what you do."
+title: About Salesforce Summaries
+meta-title: Salesforce Summaries
+subtitle: "Learn More Salesforce."
 ---
 
 <div id="aboutme-section">
 
 <p class="about-text">
-<span class="fa fa-briefcase about-icon"></span>
-  Hi again, my name is <strong>Anudit Verma</strong>, I am an avid open source enthusiast, contributor and developer hailing from New Delhi, India.
+<!-- <span class="fa fa-briefcase about-icon"></span> -->
+  COMING SOON.
 </p>
 
+<!--
 <p class="about-text">
 <span class="fa fa-graduation-cap about-icon"></span>
 I obtained my Bachelor of Technology degree in <strong>Computer Science & Engineering (CSE) </strong>from University School of Information, Communication and Technology (<a target="_blank" href="http://www.ipu.ac.in/usict/">USICT</a>) in New Delhi, India.
@@ -52,3 +53,5 @@ Let’s connect if you want to collab and create something awesome in the world 
 <script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
 </div>
 </div>
+
+-->
