@@ -7,9 +7,9 @@ share-img:  https://cdn-images-1.medium.com/max/720/1*0G2Bizt3Nija457FBhYdgQ.png
 ---
 # Building Efficient Visualforce Pages — A ‘Salesforce Summary’
 
-*SalesforceSummaries is a publication that delivers the ***key** insights from
+*SalesforceSummaries is a publication that delivers the **key** insights from
 Salesforce YouTube videos. We aim to be the
-*[getAbstract.com](https://www.getabstract.com/en/)* of Salesforce tutorial
+[getAbstract.com](https://www.getabstract.com/en/) of Salesforce tutorial
 videos. These publications will save you time as you keep up to date with the
 latest technological changes within the Salesforce ecosystem.*
 
