@@ -12,7 +12,7 @@ share-img:  https://cdn-images-1.medium.com/max/720/1*Opr2VkjACltzilCv11wy_Q.png
 Salesforce YouTube videos. We aim to be the
 *[getAbstract.com](https://www.getabstract.com/en/)* of Salesforce tutorial
 videos. These publications will save you time as you keep up to date with the
-latest technological changes within the Salesforce ecosystem.
+latest technological changes within the Salesforce ecosystem.*
 
 **Introduction:**
 
