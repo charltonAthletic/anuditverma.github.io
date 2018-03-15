@@ -70,7 +70,7 @@ tag which is less efficient.
 6. @6.50: The Visualforce page view state is encrypted and travels back and forth between client and server. Therefore, the lower the view state, the better as it results in a faster response time. This is especially true for mobile customers.
 7. @7.15: To view the view state on a page, enable &#39; [Development Mode](https://help.salesforce.com/articleView?id=pages_dev_mode.htm&amp;type=0)&#39; on the user record and select the &#39;View State in Development Mode&#39;.
 8. @7.20: In the Development footer, you&#39;ll see a third tab that shows the view state inspector. The view state enables you to see which component on the page is contributing to the view state size.
-9.@9.45: Minimize data, so as to ensure that your SOQL queries only have the fields that you absolutely need for the Visualforce page.
+9. @9.45: Minimize data, so as to ensure that your SOQL queries only have the fields that you absolutely need for the Visualforce page.
 10. @10.30: Analyze your controllers and ensure that you&#39;re only querying the fields that your page requires. In the demo, this reduced the view state from 27kb to 4kb.
 11. @10.50: Use WHERE clauses to reduce the data set to reduce the view state further.
 12. @13.30: You can tell Visualforce to not maintain view state for data which should only be visible and not editable (so to all intents and purposes it is read-only data on the page). This can be achieved by using the  [transient ](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/apex_classes_keywords_transient.htm)key word in front of your collection or sObject variables.
