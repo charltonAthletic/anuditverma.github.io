@@ -1,9 +1,8 @@
 ---
 layout: post
-title: App Lifecycle Management: Three Ways to Setup Up Your Development Lifecycle
+title: App Lifecycle Management - Three Ways to Setup Up Your Development Lifecycle
 tags: [App Lifecycle, Migration Tool, Salesforce DX]
 ---
-
 
 ## App Lifecycle Management: Three Ways to Setup Up Your Development Lifecycle
 
