@@ -2,8 +2,6 @@
 layout: post
 title: Techniques and Tools to Improve the Salesforce Development Cycle
 tags: [Continuous Integration, Salesforce Development Cycle, Source Code Management]
-image:  https://cdn-images-1.medium.com/max/2000/1*LZ7S2zyMXBhi8hDAUGoGPA.png
-share-img:  https://cdn-images-1.medium.com/max/2000/1*LZ7S2zyMXBhi8hDAUGoGPA.png
 ---
 
 ## Techniques and Tools to Improve the Salesforce Development Cycle (pre Salesforce DX)
