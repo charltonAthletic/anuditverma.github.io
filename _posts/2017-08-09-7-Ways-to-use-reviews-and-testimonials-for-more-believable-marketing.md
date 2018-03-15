@@ -6,7 +6,6 @@ image:  https://cdn-images-1.medium.com/max/720/1*v6nNn_pU0biC6wGzP9jijQ.png
 share-img:  https://cdn-images-1.medium.com/max/720/1*v6nNn_pU0biC6wGzP9jijQ.png
 ---
 
-#
 # 7 Ways to Use Reviews and Testimonials For More Believable Marketing — A &#39;Salesforce Summary&#39;
 
 *SalesforceSummaries is a publication that delivers the **key** insights from
