@@ -3,7 +3,7 @@ layout: post
 title: Hands-on Training: Get Started with Communities
 tags: [Salesforce Communities]
 image:  https://cdn-images-1.medium.com/max/2000/1*q0Bil2s-869ZxQCWOO-vbQ.png
-share-img: https://cdn-images-1.medium.com/max/2000/1*q0Bil2s-869ZxQCWOO-vbQ.png 
+share-img: https://cdn-images-1.medium.com/max/2000/1*q0Bil2s-869ZxQCWOO-vbQ.png
 ---
 
 ## Hands-on Training: Get Started with Communities
