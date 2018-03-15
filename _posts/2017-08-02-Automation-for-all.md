@@ -2,8 +2,6 @@
 layout: post
 title: Automation for All
 tags: [Lightning Process Builder, Workflows, Visual Flow]
-image:  https://cdn-images-1.medium.com/max/720/1*M58c9tIFRSbm077Jf7Ay5A.png
-share-img:  https://cdn-images-1.medium.com/max/720/1*M58c9tIFRSbm077Jf7Ay5A.png
 ---
 
 # Automation for All: Using Flow & Process Builder Together
