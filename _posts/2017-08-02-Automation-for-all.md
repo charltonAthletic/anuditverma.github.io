@@ -4,7 +4,7 @@ title: Automation for All
 tags: [Lightning Process Builder, Workflows, Visual Flow]
 ---
 
-# Automation for All: Using Flow & Process Builder Together
+# Automation for All. Using Flow & Process Builder Together
 
 *SalesforceSummaries is a publication that delivers the **key** insights from
 Salesforce YouTube videos. We aim to be the
