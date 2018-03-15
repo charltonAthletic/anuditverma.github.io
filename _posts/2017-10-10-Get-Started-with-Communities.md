@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Create a brilliant ‘world map’ Visualforce page without writing any code!
-tags: [API, Google Chart API, Visualforce]
-image:  https://cdn-images-1.medium.com/max/720/1*0G2Bizt3Nija457FBhYdgQ.png
-share-img:  https://cdn-images-1.medium.com/max/720/1*0G2Bizt3Nija457FBhYdgQ.png
+title: Get Started with Communities
+tags: [Salesforce Communities]
+
 ---
 
 ## Hands-on Training: Get Started with Communities
