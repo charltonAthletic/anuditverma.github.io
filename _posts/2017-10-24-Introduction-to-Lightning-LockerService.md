@@ -2,8 +2,6 @@
 layout: post
 title: Introduction To Lightning LockerService
 tags: [JavaScript, Lightning LockerService]
-image:  https://cdn-images-1.medium.com/max/2000/1*-X5FVbBF9aQS0R9yk4F5xw.png
-share-img:  https://cdn-images-1.medium.com/max/2000/1*-X5FVbBF9aQS0R9yk4F5xw.png
 ---
 
 ## Introduction To Lightning LockerService
