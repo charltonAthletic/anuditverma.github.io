@@ -21,7 +21,7 @@ This summary is from the &#39; [_how to use reviews and testimonials for more be
 **Summary:**
 
 
-https://cdn-images-1.medium.com/max/720/1*v6nNn_pU0biC6wGzP9jijQ.png
+![](https://cdn-images-1.medium.com/max/720/1*v6nNn_pU0biC6wGzP9jijQ.png)
 
 1. Reviews are critical — customers want to listen to other customers.
 2. A shoe company found that the time of asking for a review was hugely important. The shoes that the shoe company produced were very high quality but also took around 6 weeks to fully &#39;wear in&#39;. The shoe company used to ask for reviews around 4 weeks and the results weren&#39;t favourable as the shoes were still slightly uncomfortable at that point. However, by changing the request for a review until after 6 weeks (once the shoe had been worn in and was comfortable and durable), the results were transformative and far more positive.
