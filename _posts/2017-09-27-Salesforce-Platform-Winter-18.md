@@ -6,15 +6,13 @@ image: https://cdn-images-1.medium.com/max/2000/1*CRFFf5yRXs6In83Fu3glxw.png
 share-img: https://cdn-images-1.medium.com/max/2000/1*CRFFf5yRXs6In83Fu3glxw.png 
 ---
 
+## Salesforce Platform Winter 18 — Release Readiness Summary
+
 *SalesforceSummaries is a publication that delivers the **key** insights from
 Salesforce YouTube videos. We aim to be the
 [getAbstract.com](https://www.getabstract.com/en/) of Salesforce tutorial
 videos. These publications will save you time as you keep up to date with the
 latest technological changes within the Salesforce ecosystem.*
-
-## Salesforce Platform Winter 18 — Release Readiness Summary
-
-*SalesforceSummaries is a publication that delivers the **key **insights from Salesforce YouTube videos. We aim to be the [getAbstract.com](https://www.getabstract.com/en/) of Salesforce tutorial videos. These publications will save you time as you keep up to date with the latest technological changes within the Salesforce ecosystem.*
 
 **Introduction:**
 
