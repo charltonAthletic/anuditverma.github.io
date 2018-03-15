@@ -2,8 +2,9 @@
 layout: post
 title: Hands-on Training: Get Started with Communities
 tags: [Salesforce Communities]
+
 ---
- 
+
 ## Hands-on Training: Get Started with Communities
 
 *SalesforceSummaries is a publication that delivers the **key** insights from Salesforce YouTube videos. We aim to be the [getAbstract.com](https://www.getabstract.com/en/) of Salesforce tutorial videos. These publications will save you time as you keep up to date with the latest technological changes within the Salesforce ecosystem.*
