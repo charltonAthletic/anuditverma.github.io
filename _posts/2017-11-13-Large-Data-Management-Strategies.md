@@ -10,7 +10,7 @@ tags: [Data Managements, Large Data Volumes, Skinny Tables]
 
 **Introduction:** To manage large data volumes (LDVs) in Salesforce effectively requires understanding the tools and techniques that you can leverage to be as efficient as possible.
 
-**Details: ‘[**Large Data Management Strategies](https://www.youtube.com/watch?v=Hu44RNwN80E)’
+**Details:** ‘[Large Data Management Strategies](https://www.youtube.com/watch?v=Hu44RNwN80E)’
 
 **Presenters:** Suchin Rengan and Mahanthi Gangadhar
 
