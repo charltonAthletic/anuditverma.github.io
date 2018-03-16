@@ -2,8 +2,6 @@
 layout: post
 title: An Insider View of the Salesforce Architecture
 tags: [API, Distributed Systems]
-image: https://cdn-images-1.medium.com/max/2000/1*ht_2mJnm9KpVgCVKKPFFXA.png
-share-img:  https://cdn-images-1.medium.com/max/2000/1*ht_2mJnm9KpVgCVKKPFFXA.png
 ---
 
 ## An Insider View of the Salesforce Architecture
