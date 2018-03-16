@@ -2,8 +2,6 @@
 layout: post
 title: Async SOQL and Big Data Computing for the Salesforce Platform
 tags: [Async SOQL, Big Data, Large Data Volumes, Salesforce Platform]
-image: 
-share-img:  
 ---
 
 ## Async SOQL: Big Data Computing for the Salesforce Platform
