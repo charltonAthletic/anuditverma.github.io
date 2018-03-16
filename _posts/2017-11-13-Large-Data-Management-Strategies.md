@@ -8,17 +8,17 @@ tags: [Data Managements, Large Data Volumes, Skinny Tables]
 
 *SalesforceSummaries is a publication that delivers the **key** insights from Salesforce YouTube videos. We aim to be the [getAbstract.com](https://www.getabstract.com/en/) of Salesforce tutorial videos. These publications will save you time as you keep up to date with the latest technological changes within the Salesforce ecosystem.*
 
-**Introduction: **To manage large data volumes (LDVs) in Salesforce effectively requires understanding the tools and techniques that you can leverage to be as efficient as possible.
+**Introduction:** To manage large data volumes (LDVs) in Salesforce effectively requires understanding the tools and techniques that you can leverage to be as efficient as possible.
 
 **Details: ‘[**Large Data Management Strategies](https://www.youtube.com/watch?v=Hu44RNwN80E)’
 
-**Presenters: **Suchin Rengan and Mahanthi Gangadhar
+**Presenters:** Suchin Rengan and Mahanthi Gangadhar
 
-**Date: **November 25th 2013
+**Date:** November 25th 2013
 
-**Time: **51 minutes
+**Time:** 51 minutes
 
-**Key Terms: **Indexing, skinny tables, data management
+**Key Terms:** Indexing, skinny tables, data management
 
 **Summary:**
 
