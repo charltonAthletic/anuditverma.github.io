@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Defend Your Castle - An Essential Checklist for Establishing Secure Communities
+title: Top 10 Things to Know About Salesforce DX
 tags: [Continuous Integration, Salesforce DX]
 ---
 
