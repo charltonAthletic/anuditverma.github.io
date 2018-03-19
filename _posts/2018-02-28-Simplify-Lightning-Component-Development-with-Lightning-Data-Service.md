@@ -35,39 +35,55 @@ Service](https://www.youtube.com/watch?v=nHYnt0t0_NI)’
 
 **Key Terms**: Lightning Data Service, force:recordData
 
-1. @1.50 — There are many considerations for custom Lightning components. And there
+1.  @1.50 — There are many considerations for custom Lightning components. And there
 are many considerations that are related to data, such as SOQL, field level
 security and record updates etc. However, you don’t need to consider those when
 using the Lightning Data Service.
 
-2.@3.05 — Every single component keeps a copy of its own record data. The
+![](https://cdn-images-1.medium.com/max/720/1*JRFozaRl7SzBkXCFSRc1PA.png)
+
+![](https://cdn-images-1.medium.com/max/720/1*oG2ub1zXWwHg_eJ8jISS7Q.png)
+
+2. @3.05 — Every single component keeps a copy of its own record data. The
 components essentially ask the Salesforce server via the client side controller
 for some data, which is actioned by SOQL in the server side controller. So there
 are many steps involved to get the data.
 
-3.@4.20 — The Lightning Data Service is effectively the standard controller for
+![](https://cdn-images-1.medium.com/max/720/1*CUwhH7cr3iEiszbTHLMgvg.png)
+
+![](https://cdn-images-1.medium.com/max/720/1*VMn2ePoOcB34Vuzu2YQ1XQ.png)
+
+3. @4.20 — The Lightning Data Service is effectively the standard controller for
 Lightning.
+
+![](https://cdn-images-1.medium.com/max/720/1*lsL6ChfmzjxPZhi833CHeg.png)
 
 So instead of n number of Lightning components all keeping their own copy of the
 data, they all essentially have a pointer to a shared instance, so it’s
 effectively a shared cache.
 
-4.@5.25 — Because it’s a pointer, auto-notifications on record changes are
+4. @5.25 — Because it’s a pointer, auto-notifications on record changes are
 possible. Also, offline access for Salesforce1 is possible with the Lightning
 Data Service (LDS). In fact, offline access for Salesforce1 is powered by LDS.
 
-5.@6.00 — The data flow looks like this, with LDS:
+5. @6.00 — The data flow looks like this, with LDS:
+
+![](https://cdn-images-1.medium.com/max/720/1*RvHczvZcU5hzhcxtXSyEZQ.png)
 
 Your Lightning components will use <force:recorddata> to leverage LDS. LDS
 connects back and forth with Salesforce.
 
-6.@6.40 — The status of
+6. @6.40 — The status of
 [LDS](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/data_service.htm)
 as of the time of the presentation (July, 2017) was:
 
-7.@7.30 — <force:recorddata> is the flagship component of LDS.
+![](https://cdn-images-1.medium.com/max/720/1*qXuiHsYco9iO5dgy-BDnRA.png)
 
-8.@7.50 — You will need to give the recorddata component an aura id, so that it
+7. @7.30 — <force:recorddata> is the flagship component of LDS.
+
+![](https://cdn-images-1.medium.com/max/720/1*J5HcX-xf2hR--XWE5-Fphg.png)
+
+8. @7.50 — You will need to give the recorddata component an aura id, so that it
 can be referenced in JavaScript.
 
 You will also need to pass in the recordId, and the fields that you want to
@@ -89,18 +105,24 @@ referenced in your Lightning page.
 Lastly, you need to give a mode. This will be ‘VIEW’ or ‘EDIT’. This controls
 whether LDS can automatically re-render data for you.
 
-9.@11.25 — In the demo coming up now, there are three different Lightning
+9. @11.25 — In the demo coming up now, there are three different Lightning
 components which leverage LDS to show you the power of this functionality. None
 of them use Apex controllers.
 
-10.@11.50 — In this component, the Account Temperature icon is being pulled
+10. @11.50 — In this component, the Account Temperature icon is being pulled
 from the ‘Rating’ field on the record. This using LDS and has no Apex or
 JavaScript controller or JavaScript handlers.
 
-11.@12.05 — If the ‘Rating’ changes from ‘Hot’ to ‘Cold’, then the icon updates
+![](https://cdn-images-1.medium.com/max/720/1*-Cxf8EbopwMp4Ju8zKsLlA.png)
+
+11. @12.05 — If the ‘Rating’ changes from ‘Hot’ to ‘Cold’, then the icon updates
 automatically:
 
-12.@12.30 — This component references the force:hasRecordId interface:
+![](https://cdn-images-1.medium.com/max/720/1*F86Mb5ModY-PRyNyLH16xw.png)
+
+12. @12.30 — This component references the force:hasRecordId interface:
+
+![](https://cdn-images-1.medium.com/max/720/1*TeNUNk99I724obsb-YB0Yw.png)
 
 This interface will give the component the record Id attribute of the record
 being viewed. That record Id attribute can be passed to the <force:recorddata>
@@ -110,13 +132,15 @@ viewed.
 Since the mode of this component is ‘VIEW’, if any change to the record is mine
 whilst we are viewing it, then LDS will auto-render it again.
 
-13.@13.55 — Dynamic styling is being automatically applied to show different
+13. @13.55 — Dynamic styling is being automatically applied to show different
 icons depending on the value of the ‘Rating’ field. Line 19 says ‘if the record
 rating is ‘Hot’, then use the ‘icon-hot’ CSS styling else if the record rating
 is ‘Warm’, then use the ‘icon-warm’ CSS class. No additional JavaScript is
 required for this — it’s all Lightning expressions.
 
-14.@15.00 — The use case in this example is that a custom object has been built
+![](https://cdn-images-1.medium.com/max/720/1*-5S4ml4qTEIN2FkFntb09A.png)
+
+14. @15.00 — The use case in this example is that a custom object has been built
 which contains some fields of different data types. The salesperson is on the
 phone to the potential customer and is negotiating on the price and the
 discount. If the salesperson inputs some data into the ‘Discount Scratchpad’
@@ -124,11 +148,17 @@ component, then the commission that the salesperson would receive is displayed
 automatically with no re-rendering of the page (because the calculation is
 completed on the client).
 
-15.@16.00 — In the below screenshot, you can see that the ‘Compute Discount’
+![](https://cdn-images-1.medium.com/max/720/1*QH-vzKHlyE2onAZv8tuBCw.png)
+
+15. @16.00 — In the below screenshot, you can see that the ‘Compute Discount’
 button has been selected and so the commission value has been displayed ($1,400
 commission from a $30,000 sale).
 
-16.@16.10 — The code is below:
+![](https://cdn-images-1.medium.com/max/720/1*j4UzY-DSJCXuJ2joIbckcw.png)
+
+16. @16.10 — The code is below:
+
+![](https://cdn-images-1.medium.com/max/720/1*7mzDInplaHPuLtrYsqg0ag.png)
 
 As per line 1, for all components that implement LDS, it implements
 force:hasRecordId. This is used to get the recordId of the currently viewed
@@ -150,7 +180,9 @@ into the targetFields attribute.
 Official documentation on the force:recordData component can be found
 [here](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/aura_compref_force_recordData.htm).
 
-17.@27.40 — The roadmap is:
+17. @27.40 — The roadmap is:
+
+![](https://cdn-images-1.medium.com/max/720/1*aJ3JNZ8CjuyiPtPwcF1vHA.png)
 
 Bulk support will allow you to provide a list view Id and LDS will be able to
 fetch all the data from that.
