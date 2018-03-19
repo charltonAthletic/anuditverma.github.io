@@ -13,14 +13,14 @@ tags: [Salesforce Communities, Salesforce Security]
 This summary goes through the key attacks that can impact Communities and how to
 protect yourself from them.
 
-**Details: ‘**[Defend Your Castle: An Essential Checklist for Establishing
+**Details**: ‘[Defend Your Castle: An Essential Checklist for Establishing
 Secure Communities](https://www.youtube.com/watch?v=5eWhvQR0Dbs)’
 
 ![](https://cdn-images-1.medium.com/max/720/1*MDDestVFYIMvVP04pVClvg.png)
 
-**Presenter: **Matt Sherman and Jared Snyder
+**Presenter:** Matt Sherman and Jared Snyder
 
-**Time: **20 minutes
+**Time:** 20 minutes
 
 **Key Terms**: SOQL injection, Cross-Site Scripting, Communities, Security
 
