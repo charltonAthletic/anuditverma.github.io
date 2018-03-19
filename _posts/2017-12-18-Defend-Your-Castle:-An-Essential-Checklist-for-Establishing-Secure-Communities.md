@@ -2,6 +2,7 @@
 layout: post
 title: Defend Your Castle: An Essential Checklist for Establishing Secure Communities
 tags: [Salesforce Communities, Salesforce Security]
+image: 
 ---
 
 # Defend Your Castle: An Essential Checklist for Establishing Secure Communities
