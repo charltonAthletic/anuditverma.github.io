@@ -26,9 +26,9 @@ Secure Communities](https://www.youtube.com/watch?v=5eWhvQR0Dbs)’
 
 **Summary:**
 
-1.  @0.30 — In this session, you will learn about how to prevent attackers from
+1. @0.30 — In this session, you will learn about how to prevent attackers from
 coming after your Community.
-2.  @1.20 — You need to consider the following, with regards to creating and
+2. @1.20 — You need to consider the following, with regards to creating and
 maintaining a successful Salesforce Community: Audience, Technology, Engagement,
 Growth and Security.
 
@@ -43,7 +43,7 @@ secure?
 
 ![](https://cdn-images-1.medium.com/max/720/1*TAfZQmSFgh2P4oiTEm64Pw.png)
 
-3. @3.05 — There are some risks associated with implementing Chatter in your
+3.@3.05 — There are some risks associated with implementing Chatter in your
 Community. Chatter is a fantastic engagement tool and has some great
 functionality to prevent ‘attacks’. For example, [Member and Content
 criteria](https://help.salesforce.com/articleView?id=networks_moderator_manage_rules_content.htm&language=en_us&r=https://www.google.co.uk/&type=0)
@@ -56,7 +56,7 @@ this way, the Community can self-police itself.
 
 ![](https://cdn-images-1.medium.com/max/720/1*D2Z0AhxOzN3HkyffYeWHBw.png)
 
-4. @4.00 — [Event
+4.@4.00 — [Event
 Monitoring](https://trailhead.salesforce.com/en/modules/event_monitoring/units/event_monitoring_intro)
 is a paid for Salesforce add-on that gives you a huge amount of insight into who
 did what, when. You can leverage Event Monitoring with [Transaction
@@ -70,7 +70,7 @@ protocol they typically use.
 
 ![](https://cdn-images-1.medium.com/max/720/1*aGzN_XgXJ5CkgJpzlEOPPg.png)
 
-5. @4.45 — The first line of defence to your Community is the Org-Wide Defaults
+5.@4.45 — The first line of defence to your Community is the Org-Wide Defaults
 (OWDs).You can consider OWDs to be like the castle walls. You will want to
 enable an external sharing model for external Communities.
 
@@ -82,7 +82,7 @@ can edit this so as to make Users only see who they should see. More info
 
 ![](https://cdn-images-1.medium.com/max/720/1*A-sH0CbCSTbPBDmA56UfcQ.png)
 
-6. @8.30 — When writing code for Communities (for example, you may have a
+6.@8.30 — When writing code for Communities (for example, you may have a
 Visualforce page or Lightning page that you want to be displayed on a Community
 page), be very careful with the ‘sharing’ keyword in your controller. ‘With
 Sharing’ respects the OWDs whilst ‘without sharing’ does not. By default,
@@ -92,7 +92,7 @@ classes are ‘with sharing’. More info
 So potentially, ‘without sharing’ can be a huge security issue (although there
 are some valid reasons why a controller would have ‘without sharing’).
 
-7. @9.25 — You can use the Security Health Check in Salesforce Setup to identify
+7.@9.25 — You can use the Security Health Check in Salesforce Setup to identify
 and fix vulnerabilities. The ‘How is the Health Check Score Calculated’
 documentation is
 [here](https://help.salesforce.com/articleView?id=security_health_check_score.htm&type=0).
@@ -101,15 +101,15 @@ documentation is
 
 ![](https://cdn-images-1.medium.com/max/720/1*cPaM1D9SFhj7ommh6CpPLA.png)
 
-8. @10.00 — There is also a paid add-on as part of Salesforce Shield which will
+8.@10.00 — There is also a paid add-on as part of Salesforce Shield which will
 enable you to encrypt data at rest and not just at transmission (it’s important
 to be aware that there are pros and cons to this, though). More info
 [here](https://trailhead.salesforce.com/en/modules/spe_admins).
 
-9. @10.30 — From a coding perspective, you should refer to the [Apex Coding
+9.@10.30 — From a coding perspective, you should refer to the [Apex Coding
 Guidelines](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_dev_guide.htm).
 
-10. @11.00 — You need to be aware of [SOQL injection
+10.@11.00 — You need to be aware of [SOQL injection
 attacks](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_security_tips_soql_injection.htm).
 SOQL is the Salesforce version of SQL. It is a query language. A very good eBook
 resource for learning about SOQL is
@@ -153,7 +153,7 @@ no results are returned:
 
 ![](https://cdn-images-1.medium.com/max/720/1*snOn-CCvJMyr3jMR-W0amw.png)
 
-11. @14.20 — Another security threat that you need to be aware of is [cross-site
+11.@14.20 — Another security threat that you need to be aware of is [cross-site
 scripting](https://developer.salesforce.com/page/Secure_Coding_Cross_Site_Scripting)
 (XSS). This may be more of a concern than the SOQL injection attack because with
 XSS, there is the risk of data being copied out of the Org. There is a lot of
@@ -174,21 +174,21 @@ ensure the input is taken literally.
 
 ![](https://cdn-images-1.medium.com/max/720/1*Yfr6oNjkyEXVkpQ9gpc9TQ.png)
 
-12. @17.30 — So, just to recap, as per below screenshot, this is an example of
+12.@17.30 — So, just to recap, as per below screenshot, this is an example of
 code that is vulnerable to a SOQL injection.
 
 ![](https://cdn-images-1.medium.com/max/720/1*Uj6bMNzXSzyUQAkAGNX7eA.png)
 
-13. @17.40 — And the fix is here:
+13.@17.40 — And the fix is here:
 
 ![](https://cdn-images-1.medium.com/max/720/1*wJ--J4z5UbQJBjdhDezNlA.png)
 
-14. @17.50 — There is another type of XSS, called Cross Site Request Forgery
+14.@17.50 — There is another type of XSS, called Cross Site Request Forgery
 (CSRF). The difference is that, in CSRF, the user is already authenticated.
 
 ![](https://cdn-images-1.medium.com/max/720/1*hcThiz8a7T5sMEjEJKrVFA.png)
 
-15. @19.25 — You should take the [Trailhead
+15.@19.25 — You should take the [Trailhead
 Trailmix](https://trailhead.salesforce.com/en/modules/secdev_injection_vulnerabilities/units/secdev_inject_get_started_wappsec)
 for more information and experience on dealing with these kind of attacks.
 
