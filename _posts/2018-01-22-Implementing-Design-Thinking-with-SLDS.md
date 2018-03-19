@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Don’t Make Users Think: Implementing Design Thinking with SLDS
+title: Implementing Design Thinking with SLDS
 tags: [Salesforce Lightning, Salesforce Lightning Design System]
 ---
 
