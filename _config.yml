@@ -20,7 +20,7 @@ title: Salesforce Summaries
 # use subtitle: to set the sub heading for that title(meta-title). NOTE: if(meta-title exists){subtilel visiblity = true}
 
 # Short description of your site
-description: Let me introduce you to my geek side!
+description: SalesforceSummaries is a publication that delivers the key insights from Salesforce YouTube videos.
 
 # --- Navigation bar options --- #
 
@@ -112,7 +112,7 @@ url-pretty: "www.salesforcesummaries.com"
 # disqus: ""
 
 # Fill in your Google Analytics ID to track your website using GA
-# google_analytics: ""
+ google_analytics: "UA-116154642-1"
 
 # Google Tag Manager ID
 #gtm: ""
