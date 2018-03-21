@@ -66,7 +66,7 @@ author:
   instagram: salesforcesummaries
 # reddit: yourname
 # xing: yourname
-# stackoverflow: yourlink  # eg. "3943160/daattali"
+stackoverflow: 7191297/andy-hitchings
 # snapchat: yourname
 # youtube: yourlink   # eg. user/daattali or channel/daattali
 # spotify: yourname
@@ -87,7 +87,7 @@ footer-links-active:
   instagram: true
   reddit: false
   xing: false
-  stackoverflow: false
+  stackoverflow: true
   snapchat: false
   youtube: false
   spotify: false
