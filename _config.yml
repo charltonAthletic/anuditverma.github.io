@@ -62,7 +62,7 @@ author:
   twitter: sfsummaries
  # google-plus: +AnuditVerma
   linkedin: andyhitchings
- # stackoverflow: 4590331/anudit-verma
+  stackoverflow: 7191297/andy-hitchings
   instagram: salesforcesummaries
 # reddit: yourname
 # xing: yourname
@@ -87,7 +87,7 @@ footer-links-active:
   instagram: true
   reddit: false
   xing: false
-  stackoverflow: false
+  stackoverflow: true
   snapchat: false
   youtube: false
   spotify: false
