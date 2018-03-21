@@ -20,7 +20,7 @@ title: Salesforce Summaries
 # use subtitle: to set the sub heading for that title(meta-title). NOTE: if(meta-title exists){subtilel visiblity = true}
 
 # Short description of your site
-description: SalesforceSummaries is a publication that delivers the key insights from Salesforce YouTube videos.
+description: "SalesforceSummaries is a publication that delivers the key insights from Salesforce YouTube videos."
 
 # --- Navigation bar options --- #
 
@@ -66,7 +66,7 @@ author:
   instagram: salesforcesummaries
 # reddit: yourname
 # xing: yourname
-stackoverflow: 7191297/andy-hitchings
+# stackoverflow: 7191297/andy-hitchings
 # snapchat: yourname
 # youtube: yourlink   # eg. user/daattali or channel/daattali
 # spotify: yourname
@@ -87,7 +87,7 @@ footer-links-active:
   instagram: true
   reddit: false
   xing: false
-  stackoverflow: true
+  stackoverflow: false
   snapchat: false
   youtube: false
   spotify: false
