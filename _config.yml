@@ -12,7 +12,7 @@ baseurl: ""
 #baseurl: "/projectname"
 
 # Name of website
-title: "Salesforce Summaries"
+title: Salesforce Summaries
 
 #For my changes
 # use meta-title: for the center heading of the page.
@@ -20,7 +20,7 @@ title: "Salesforce Summaries"
 # use subtitle: to set the sub heading for that title(meta-title). NOTE: if(meta-title exists){subtilel visiblity = true}
 
 # Short description of your site
-# description: "SalesforceSummaries is a publication that delivers the key insights from Salesforce YouTube videos."
+ description: SalesforceSummaries is a publication that delivers the key insights from Salesforce YouTube videos.
 
 # --- Navigation bar options --- #
 
@@ -131,11 +131,11 @@ title-separator: "-"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "Asia/Kolkata"
+timezone: "Europe/London"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
-paginate: 15
+paginate: 20
 
 kramdown:
   input: GFM
