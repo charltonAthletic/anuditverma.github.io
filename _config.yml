@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://anudit.in"
+url: "http://salesforcesummaries.com"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -20,7 +20,7 @@ title: Salesforce Summaries
 # use subtitle: to set the sub heading for that title(meta-title). NOTE: if(meta-title exists){subtilel visiblity = true}
 
 # Short description of your site
- description: Let me introduce you to my geek side!
+description: Let me introduce you to my geek side!
 
 # --- Navigation bar options --- #
 
@@ -66,7 +66,7 @@ author:
   instagram: salesforcesummaries
 # reddit: yourname
 # xing: yourname
-# stackoverflow: 7191297/andy-hitchings
+# stackoverflow: yourlink  # eg. "3943160/daattali"
 # snapchat: yourname
 # youtube: yourlink   # eg. user/daattali or channel/daattali
 # spotify: yourname
@@ -112,7 +112,7 @@ url-pretty: "www.salesforcesummaries.com"
 # disqus: ""
 
 # Fill in your Google Analytics ID to track your website using GA
- google_analytics: "UA-116154642-1"
+# google_analytics: ""
 
 # Google Tag Manager ID
 #gtm: ""
@@ -131,7 +131,7 @@ title-separator: "-"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "Europe/London"
+timezone: "Asia/Kolkata"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
