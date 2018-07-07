@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Einstein Bots: Build a CRM Powered Chatbot
-tags: [Chatbots, Einstein, Twilio Integration]
+title: Integrating Third-party APIs Using APEX RESTful Callouts
+tags: [API Integration, RESTful Callouts, Salesforce APIs, Salesforce Integration, Salesforce REST API]
 ---
 
 # Einstein Bots: Build a CRM Powered Chatbot
