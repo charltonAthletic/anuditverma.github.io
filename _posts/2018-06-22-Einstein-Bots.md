@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Einstein Bots Build a CRM Powered Chatbot
-tags: [API Integration, RESTful Callouts, Salesforce APIs, Salesforce Integration, Salesforce REST API]
+tags: [Chatbots, Einstein]
 ---
 
 # Einstein Bots: Build a CRM Powered Chatbot
