@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Einstein Bots: Build a CRM Powered Chatbot
-tags: [Chatbots, Twilio]
+tags: [Chatbots, Einstein]
 ---
 
 # Einstein Bots: Build a CRM Powered Chatbot
