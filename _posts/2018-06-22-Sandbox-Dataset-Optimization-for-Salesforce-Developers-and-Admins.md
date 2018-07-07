@@ -82,21 +82,3 @@ increased developer productivity.
 13. @13.00 — Everything that OwnBackup do is through the Salesforce API and
 because scratch orgs aren’t available through this, the tool doesn’t support
 scratch orgs yet.
-
-* [Salesforce](https://medium.com/tag/salesforce?source=post)
-* [Continuous
-Deployment](https://medium.com/tag/continuous-deployment?source=post)
-* [Metadata](https://medium.com/tag/metadata?source=post)
-* [Sandbox](https://medium.com/tag/sandbox?source=post)
-
-From a quick cheer to a standing ovation, clap to show how much you enjoyed this
-story.
-
-### [Andy Hitchings](https://medium.com/@andyhitchings)
-
-Salesforce & JavaScript Developer
-
-### [Salesforce
-Summaries](https://medium.com/salesforcesummaries?source=footer_card)
-
-Save time with our key insights from Salesforce YouTube videos.
