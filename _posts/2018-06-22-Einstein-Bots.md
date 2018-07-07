@@ -4,7 +4,6 @@ title: Einstein Bots: Build a CRM Powered Chatbot
 tags: [Chatbots, Einstein, Twilio Integration]
 ---
 
-
 # Einstein Bots: Build a CRM Powered Chatbot
 
 *SalesforceSummaries.com is a publication that delivers the ***key*** insights
@@ -102,10 +101,3 @@ etc).
 
 11. @17.05 — Before activating a bot, you can use the helpful ‘preview’ function
 to test the bot.
-
-* [Bots](https://medium.com/tag/bots?source=post)
-* [Salesforce Einstein](https://medium.com/tag/salesforce-einstein?source=post)
-* [Salesforce](https://medium.com/tag/salesforce?source=post)
-* [Salesforce
-Development](https://medium.com/tag/salesforce-development?source=post)
-* [Chatbots](https://medium.com/tag/chatbots?source=post)
