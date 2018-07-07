@@ -1,3 +1,9 @@
+---
+layout: post
+title: Switching it Up with Apex
+tags: [Apex, Switch statement]
+---
+
 # Switching it Up with Apex
 
 *SalesforceSummaries.com is a publication that delivers the ***key*** insights
